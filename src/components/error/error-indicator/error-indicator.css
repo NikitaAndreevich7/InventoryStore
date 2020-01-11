@@ -1,0 +1,17 @@
+.error-indicator{
+    display:flex;
+    flex-direction:column;
+    margin: 10% auto auto auto;
+    text-align:center;
+}
+img{
+    width:150px;
+    margin:auto;
+}
+.error{
+    font-size: 25px;
+    color:tomato;
+}
+.detail{
+    color:silver;
+}

@@ -1,0 +1,44 @@
+.list{
+    display:flex;
+    width:100%;
+    max-width:1000px;
+    margin-bottom:7px;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.name-icon{
+    width:45%;
+}
+.data-wrap{
+    display:flex;
+    flex-direction:column;
+}
+.data-line{
+    display:flex;
+    justify-content: space-between;
+}
+.data-line span{
+    color:silver;
+    margin-right:5px
+}
+.time-create-product{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+.money{
+    display:flex;
+    flex-direction:column
+}
+
+@media (max-width: 1199px){
+    .list{
+        flex-wrap:wrap;
+    }
+    .name-icon{
+        width:100%;
+        border-bottom:1px solid silver;
+    }
+
+}

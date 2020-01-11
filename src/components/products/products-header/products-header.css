@@ -1,0 +1,29 @@
+.head-products{
+    width:90%;
+    max-width:800px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    padding:0 0 70px 0;
+
+}
+/* title product                        <------------------- */
+.title-product{
+    font-size: 30px;
+    font-weight:600;
+ 
+ }
+ 
+ /* input product search                      <------------------- */
+ .input-product-search{
+     width:50%;
+     display:flex;
+     height:100%;
+     align-items:center;
+ }
+ .search{
+     width:100%;
+     border:1px solid #d4dce0;
+     padding:2px 2px 2px 15px;
+     border-radius:2px;
+ }

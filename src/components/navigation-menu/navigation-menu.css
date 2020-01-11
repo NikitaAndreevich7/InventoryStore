@@ -1,0 +1,43 @@
+.navigation-menu{
+    width:15%;
+    position: fixed;
+    height:100%;
+    min-height:89vh;
+    margin:0;
+    max-width:300px;
+    min-width:250px;
+    box-shadow: 0px 3px 10px rgba(0,0,0, .3);
+    padding:200px 70px;
+    background-color: #fff;
+    z-index: 2;
+}
+.category{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom:20px;
+}
+
+.effect {
+	position: relative;
+	color: #00a650; /*задаём цвет ссылки*/
+	cursor: pointer;
+	line-height: 1; /*задаём высоту строки*/
+	text-decoration: none; /*убираем подчёркивание*/
+
+}
+.effect:after {
+	display: block;
+	position: absolute;
+	left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
+	width: 0;/*задаём длинну линии до наведения курсора*/
+	height: 2px; /*задаём ширину линии*/
+	background-color: #00a650; /*задаём цвет линии*/
+	content: "";
+	transition: width 0.3s ease-out; /*задаём время анимации*/
+}
+
+.effect:hover:after,
+.effect:focus:after {
+    width: 100%; /*устанавливаем значение 100% чтобы ссылка подчёркивалась полностью*/
+
+}

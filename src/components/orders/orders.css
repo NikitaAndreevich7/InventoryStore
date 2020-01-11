@@ -1,0 +1,16 @@
+/* all basic style                          <------------------- */
+.orders{
+    width:100%;
+    padding: 50px;
+    margin-left:300px;
+    margin-top:100px;
+}
+.head-orders{
+    padding:0 0 70px 0;
+}
+/* title product                        <------------------- */
+.title-orders{
+    font-size: 30px;
+    font-weight:600;
+ 
+ }

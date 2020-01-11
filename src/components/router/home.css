@@ -1,0 +1,20 @@
+.home{
+    margin-top: 100px;
+    margin-left:300px;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+
+}
+.home-details{
+    display:flex;
+    flex-direction:column;
+    height:70px;
+    justify-content: space-between;
+}
+.home-details span{
+    color:grey !important;
+}
+.home-details span i{
+    color:green !important
+}

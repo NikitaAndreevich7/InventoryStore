@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    text-decoration:none;
+    color:#2c3c44 !important;
+    text-decoration:none !important;
+}
+.app{
+    height:100%;
+    min-height:100vh;
+    background:#f0f3f5;
+    background-position: center;
+}
+.box{
+    display:flex;
+}

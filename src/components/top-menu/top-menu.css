@@ -1,0 +1,60 @@
+
+/*all basic style                   <----------------------*/           
+.top-menu-wrap{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    border:1px solid silver;
+    padding:25px 50px;
+    box-shadow: 0px 3px 10px rgba(0,0,0, .3);
+    align-items:center;
+    background-color: #fff;
+    position:fixed;
+    z-index:4;
+}
+.icon-box{
+    width:18%;
+    max-width:200px;
+    margin-left:250px;
+    display:flex;
+    align-items:center;
+}
+.data-time-box{
+    width:30%;
+    max-width:250px;
+    display:flex;
+    justify-content: space-around;
+}
+.data{
+    display:flex;
+    flex-direction:column;
+}
+.data span {
+    color:grey;
+
+}
+
+.time{
+    display:flex;
+    align-items:flex-end;
+    color:grey;
+}
+.time img{
+    width:20px;
+    margin:0 10px 0 0;
+}
+
+/* icon                  <---------------------------*/
+.icon{
+    padding:0 0 0 30px;
+}
+.icon img{
+    width:40px;
+}
+
+/* icon -text                 <---------------------------*/
+.icon-text{
+    padding: 0 0 0 20px;
+    color:teal;
+    text-transform:uppercase;
+}

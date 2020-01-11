@@ -1,0 +1,32 @@
+.title{
+    width:10%;
+}
+.box-quantity{
+    display:flex;
+    flex-direction:column;
+}
+.icon-menu{
+    border:none;
+    background:white;
+    outline:none !important;
+}
+.num{
+    font-size:20px;
+}
+.text{
+    color:silver;
+}
+.price{
+    display:flex;
+    flex-direction:column;
+}
+.time-date{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+}
+.trash {
+    border:none;
+    background:white;
+    outline:none !important;
+}

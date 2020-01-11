@@ -1,0 +1,21 @@
+.row-wrap{
+    display:flex;
+    justify-content: space-between;
+    width:100%;
+}
+.q{
+    width:49%;
+}
+
+
+@media (max-width: 1199px){
+    .row-wrap{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+    }
+    .q{
+        width:100%;
+
+    }
+}
